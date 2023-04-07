@@ -1,0 +1,21 @@
+[
+	{
+	  "Title": "Emscripten: Build",
+	  "Command": "C:\\Windows\\System32\\wsl.exe",
+	  "Arguments": "./project_actions.sh build web",
+	  "InitialDirectory": "$(SolutionDir)tools"
+	},
+	{
+		"Title": "Emscripten: Run",
+		"Command": "C:\\Windows\\System32\\wsl.exe",
+		"Arguments": "./project_actions.sh run web",
+		"InitialDirectory": "$(SolutionDir)tools"
+	},
+	{
+	"Title": "Emscripten: Clean",
+	"Command": "C:\\Windows\\System32\\wsl.exe",
+	"Arguments": "./project_actions.sh clean web",
+	"InitialDirectory": "$(SolutionDir)tools"
+	}
+  ]
+  
