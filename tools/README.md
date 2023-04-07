@@ -1,5 +1,4 @@
 # Development Tools
-# ===================
 
 This directory contains a number of tools that can be used to help with the development of the project.
 
@@ -11,6 +10,6 @@ This will add the following tools to your Visual Studio 2022:
 - `Emscripten: Clean` - clean the project by removing the docker compose files.
 
 ## Dependencies
-- WSL2 (Windows Subsystem for Linux)
+- WSL2 (Windows Subsystem for Linux) Ubuntu
 - Docker
 - Docker Compose 2.0+
